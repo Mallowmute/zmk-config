@@ -62,7 +62,7 @@
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR  &kp PERCENT  &kp CARET       &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp F7           &kp F8       &kp F9            &kp F10     &kp F11      &kp F12         &kp UNDERSCORE  &kp PLUS      &kp DOUBLE_QUOTES     &kp ENTER
-&kp Z            &trans       &trans            &trans      &trans       &trans          &kp LEFT        &kp UP_ARROW  &kp DOWN              &kp RIGHT
+&kp Z            &trans       &bootloader       &trans      &trans       &trans          &kp LEFT        &kp UP_ARROW  &kp DOWN              &kp RIGHT
 &trans                        &kp LEFT_CONTROL  &trans      &trans       &kp APOSTROPHE                  &mo 3                               &trans
             >;
         };
