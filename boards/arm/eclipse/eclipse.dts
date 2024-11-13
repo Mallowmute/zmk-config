@@ -9,6 +9,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/led/led.h>
 
+#include "eclipse-pinctrl.dtsi"
+
 #include "eclipse-transforms.dtsi"
 #include "eclipse-layouts.dtsi"
 
