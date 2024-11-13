@@ -1,6 +1,6 @@
 file_format: "1"
-id: nameless_ergo
-name: nameless_ergo
+id: eclipse
+name: eclipse 
 type: board
 arch: arm
 outputs:

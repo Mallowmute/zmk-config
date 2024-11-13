@@ -1,5 +1,5 @@
-identifier: nameless_ergo
-name: nameless_ergo
+identifier: eclipse 
+name: eclipse
 type: mcu
 arch: arm
 toolchain:
