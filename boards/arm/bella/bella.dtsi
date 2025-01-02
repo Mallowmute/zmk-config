@@ -41,6 +41,13 @@
     };
 };
 
+zephyr_udc0: &usbd {
+  status: "okay";
+  cdc-acm-uart: cdc-acm-uart {
+  compatible = "zephyr,cdc-acm-uart";
+  };
+};
+
 &flash0 {
     partitions {
         compatible = "fixed-partitions";
