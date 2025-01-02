@@ -24,6 +24,7 @@
         zmk,battery = &fuelgauge;
         zmk,kscan = &kscan0;
     };
+};
 
 &gpio0 {
     status = "okay";
