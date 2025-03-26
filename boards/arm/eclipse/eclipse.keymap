@@ -28,7 +28,7 @@
 
         nav_layer {
             bindings = <
-    &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans
+    &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans          &trans &sys_reset &trans
     &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans   &trans &trans &trans
     &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans   &trans &trans &trans    
     &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  
