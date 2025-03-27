@@ -17,6 +17,6 @@ config ZMK_RGB_UNDERGLOW_EXT_POWER
     bool "RGB underglow toggling also controls external power"
 
 config ZMK_RGB_UNDERGLOW_BRT_MAX
-    int 75
+    int "75"
 
 endif # ZMK_RGB_UNDERGLOW
