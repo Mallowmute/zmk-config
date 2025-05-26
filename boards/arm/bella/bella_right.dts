@@ -32,6 +32,10 @@ kscan0: kscan {
     };
 };
 
+&default_transform {
+  col-offset = <7>;
+};
+
 &pinctrl {
      i2c0_default: i2c0_default {
         group1 {
