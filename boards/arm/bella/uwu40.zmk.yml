@@ -1,6 +1,6 @@
 file_format: "1"
-id: bella
-name: bella
+id: uwu40 
+name: uwu40
 type: board
 arch: arm
 outputs:
@@ -8,6 +8,3 @@ outputs:
   - ble
 features:
   - keys
-siblings:
-  - bella_left
-  - bella_right
