@@ -1,6 +1,6 @@
 identifier: uwu40
 name: uwu40
-type: board
+type: mcu 
 arch: arm
 toolchain:
   - zephyr
