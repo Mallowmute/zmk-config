@@ -1,6 +1,0 @@
-# Copyright (c) 2023 The ZMK Contributors
-# SPDX-License-Identifier: MIT
-
-config BOARD_UWU40
-    bool "UwU40"
-    depends on SOC_NRF52840_QIAA

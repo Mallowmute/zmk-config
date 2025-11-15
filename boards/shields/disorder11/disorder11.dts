@@ -1,0 +1,32 @@
+#include <zephyr/dt-bindings/dt-util.h>
+
+#include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
+
+#include "disorder11-transforms.dtsi"
+#include "disorder11-layouts.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+
+    kscan0; kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        label = "default_kscan";
+        diode-direction = "col2row";
+        wakeup-source;
+
+        row-gpios =  <&gpio1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+                  ,  <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+                  ,  <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+                  ;
+
+        col-gpios =  <&gpio0 4 GPIO_ACTIVE_HIGH>
+                  ,  <&gpio0 29 GPIO_ACTIVE_HIGH>
+                  ,  <&gpio0 28 GPIO_ACTIVE_HIGH>
+                  ,  <&gpio0 3 GPIO_ACTIVE_HIGH>
+                  ,  <&gpio0 2 GPIO_ACTIVE_HIGH>
+                  ;
+    };
+};

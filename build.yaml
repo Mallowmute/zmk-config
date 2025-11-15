@@ -13,7 +13,8 @@
 #
 ---
 include:
-  - board: uwu40 
+  - board: seeeduino_xiao_ble
+    shield: disorder11 
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: UwU40-Studio
+    artifact-name: disorder11-studio
