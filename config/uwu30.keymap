@@ -42,10 +42,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W  &kp F     &kp P  &kp G  &kp J      &kp L  &kp U  &kp Y      &kp BACKSPACE
-&kp A           &kp R  &kp S     &kp T  &kp D  &kp H      &kp N  &kp E  &kp I      &kp O
-&kp LEFT_SHIFT  &kp Z  &kp X     &kp C  &kp V  &kp B      &kp K  &kp M  &kp COMMA  &kp PERIOD
-&kp D                  &kp SEMI  &mo 2  &kp B  &kp SPACE         &kp A             &kp C
+&kp Q             &kp W  &kp F             &kp P  &kp G   &kp J      &kp L  &kp U      &kp Y       &kp BACKSPACE
+&kp A             &kp R  &kp S             &kp T  &kp D   &kp H      &kp N  &kp E      &kp I       &kp O
+&mt LEFT_SHIFT Z  &kp X  &kp C             &kp V  &kp B   &kp K      &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&trans                   &kp LEFT_CONTROL  &mo 2  &trans  &kp SPACE         &mo 1                  &trans
             >;
         };
 
@@ -53,7 +53,7 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7     &kp N8         &kp N9            &kp N0
 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5  &kp F6        &kp MINUS  &kp EQUAL      &kp KP_DIVIDE     &kp SEMICOLON
-&trans        &kp K_CUT     &kp K_COPY    &kp K_PASTE   &none   &trans        &trans     &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
+&trans        &kp K_CUT     &kp K_COPY    &kp K_PASTE   &none   &trans        &kp TILDE  &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
 &trans                      &trans        &mo 3         &trans  &trans                   &trans                           &trans
             >;
         };
@@ -71,17 +71,17 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &new_macro
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mo 4   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &trans  &trans  &trans          &trans          &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans          &trans          &trans
+&bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans               &trans  &trans  &trans  &trans          &trans          &trans
             >;
         };
     };
