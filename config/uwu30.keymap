@@ -69,10 +69,10 @@
 
         f_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &new_macro
-&trans  &mo 4   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans          &trans          &trans
+&kp ESCAPE   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE
+&kp LA(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &new_macro
+&trans       &mo 4   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans               &trans  &trans  &trans  &trans          &trans          &trans
             >;
         };
 
